@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans&display=swap');
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #d8d3cd
+  font-weight: 300;
+  color: #132743
+}
+
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+
+font-weight: 400;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #70adb5
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  margin: 16px auto;
+  /*width: 600px;*/
+  border-radius: 8px;
+  text-align: center;
+
+}
+
+.btn-blue {
+  background-color: rgb(220,220,220);
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1)
+}
+
+.btn-blue:hover {
+background-color: rgb(200,200,200);
+color: white;
+}
+
+.img-profile {
+  width: 150px;
+  border-radius: 50px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto
+}
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+    font-size: 40px;
+    color: rgb(220,220,220);
+    margin: 8px 24px;
+}
+
+.social-icon:hover {
+color: rgb(200,200,200);
+
+}
+
+@media (max-width: 1080px) {
+  .container {
+    width: 900px;
+  }
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
